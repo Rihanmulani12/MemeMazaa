@@ -1,0 +1,48 @@
+h1 {
+  font-size: 32px;
+  color: #432d0a;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+  text-shadow: 0 0 0.1cm rgb(243, 170, 205);
+
+ 
+}
+
+
+@media (max-width: 767px) {
+ 
+  .App {
+    /* Add your mobile-specific styles here */
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .App h1 {
+    font-size: 24px;
+  }
+  
+  .App .container {
+    margin: 10px;
+  }
+  
+  .App .button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .App .menu {
+    display: none; /* Hide the menu on mobile */
+  }
+  
+  /* Adjust any other elements as needed for mobile view */
+  
+  
+  
+}
+
+
+  
